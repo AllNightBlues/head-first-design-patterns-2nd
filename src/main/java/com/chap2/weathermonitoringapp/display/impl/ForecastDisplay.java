@@ -5,7 +5,8 @@
  */
 package com.chap2.weathermonitoringapp.display.impl;
 
-import com.chap2.weathermonitoringapp.display.WeatherDisplay;
+import com.chap2.observerpattern.Observer;
+import com.chap2.weathermonitoringapp.display.DisplayElement;
 
 /**
  * @ClassName ForecastDisplay
@@ -14,7 +15,14 @@ import com.chap2.weathermonitoringapp.display.WeatherDisplay;
  * @Date 2022/05/29 00:24
  * @Version 1.0
  **/
-public class ForecastDisplay implements WeatherDisplay {
+public class ForecastDisplay implements Observer, DisplayElement {
+
+
+    @Override
+    public void display() {
+
+    }
+
     @Override
     public void update(float temp, float humidity, float pressure) {
 

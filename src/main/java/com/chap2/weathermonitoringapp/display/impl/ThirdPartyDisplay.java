@@ -1,5 +1,5 @@
 /**
- * @(#) StatisticsDisplay.java 1.0 2022-05-29
+ * @(#) ThirdPartyDisplay.java 1.0 2022-05-29
  * Copyright (c) 2022, AllNightBlues. ALL right reserved.
  * AllNightBlues PROPRIETARY/CONFIDENTIAL. Use is subject to license terms.
  */
@@ -9,14 +9,13 @@ import com.chap2.observerpattern.Observer;
 import com.chap2.weathermonitoringapp.display.DisplayElement;
 
 /**
- * @ClassName StatisticsDisplay
+ * @ClassName ThirdPartyDisplay
  * @description:
  * @AUTHOR AllNightBlues
- * @Date 2022/05/29 00:24
+ * @Date 2022/05/29 18:59
  * @Version 1.0
  **/
-public class StatisticsDisplay implements Observer, DisplayElement {
-
+public class ThirdPartyDisplay implements Observer, DisplayElement {
 
 
 

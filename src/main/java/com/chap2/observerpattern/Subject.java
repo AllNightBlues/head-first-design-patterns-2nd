@@ -14,9 +14,9 @@ package com.chap2.observerpattern;
  **/
 public interface Subject {
 
-    void registerObserver();
+    void registerObserver(Observer o);
 
-    void removeObserver();
+    void removeObserver(Observer o);
 
-    void notifyObserver();
+    void notifyObservers();
 }

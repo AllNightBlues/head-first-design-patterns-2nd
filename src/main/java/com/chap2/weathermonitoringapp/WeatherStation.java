@@ -5,6 +5,8 @@
  */
 package com.chap2.weathermonitoringapp;
 
+import com.chap2.weathermonitoringapp.display.impl.CurrentConditionDisplay;
+
 /**
  * @ClassName WeatherStation
  * @description:
@@ -13,4 +15,16 @@ package com.chap2.weathermonitoringapp;
  * @Version 1.0
  **/
 public class WeatherStation {
+
+    public static void main(String[] args) {
+        WeatherData weatherData = new WeatherData();
+
+        CurrentConditionDisplay currentConditionDisplay = new CurrentConditionDisplay(weatherData);
+
+        weatherData.setMeasurements(90, 20, 30);
+        weatherData.setMeasurements(78, 15, 600);
+        weatherData.setMeasurements(55, 88, 30);
+
+
+    }
 }
