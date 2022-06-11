@@ -6,6 +6,7 @@
 package com.chap2.weathermonitoringapp;
 
 import com.chap2.weathermonitoringapp.display.impl.CurrentConditionDisplay;
+import com.chap2.weathermonitoringapp.display.impl.HeatIndexDisplay;
 
 /**
  * @ClassName WeatherStation
@@ -20,10 +21,11 @@ public class WeatherStation {
         WeatherData weatherData = new WeatherData();
 
         CurrentConditionDisplay currentConditionDisplay = new CurrentConditionDisplay(weatherData);
+        HeatIndexDisplay heatIndexDisplay = new HeatIndexDisplay(weatherData);
 
-        weatherData.setMeasurements(90, 20, 30);
-        weatherData.setMeasurements(78, 15, 600);
-        weatherData.setMeasurements(55, 88, 30);
+        weatherData.setMeasurements(90, 20, 30.4f);
+        weatherData.setMeasurements(78, 15, 29.2f);
+        weatherData.setMeasurements(55, 88, 30.2f);
 
 
     }
