@@ -15,4 +15,8 @@ package com.chap2.observerpattern;
 public interface Observer {
 
     void update(float temp, float humidity, float pressure);
+
+    default void update() {
+
+    }
 }
