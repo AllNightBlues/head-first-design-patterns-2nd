@@ -37,6 +37,13 @@ public class HeatIndexDisplay implements Observer,DisplayElement {
     }
 
     @Override
+    public void update() {
+        this.temperature = weatherData.getTemperature();
+        this.humidity =weatherData.getHumidity();
+        this.display();
+    }
+
+    @Override
     public void display() {
         System.out.println("Heat index is " + computeHeatIndex(this.temperature, this.humidity));
     }
