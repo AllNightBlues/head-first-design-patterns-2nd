@@ -7,9 +7,6 @@ package com.chap2.weathermonitoringapp;
 
 import com.chap2.observerpattern.Observer;
 import com.chap2.observerpattern.Subject;
-import com.chap2.weathermonitoringapp.display.impl.CurrentConditionDisplay;
-import com.chap2.weathermonitoringapp.display.impl.ForecastDisplay;
-import com.chap2.weathermonitoringapp.display.impl.StatisticsDisplay;
 
 import java.util.ArrayList;
 import java.util.List;
