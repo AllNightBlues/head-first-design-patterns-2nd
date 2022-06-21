@@ -5,8 +5,8 @@
  */
 package com.chap4.pizzastoreframework.store;
 
-import com.chap4.pizzashop.Pizza;
 import com.chap4.pizzastoreframework.PizzaStore;
+import com.chap4.pizzastoreframework.pizza.Pizza;
 import com.chap4.pizzastoreframework.pizza.nypizza.NYStyleCheesePizza;
 import com.chap4.pizzastoreframework.pizza.nypizza.NYStyleClamPizza;
 import com.chap4.pizzastoreframework.pizza.nypizza.NYStylePepperoniPizza;

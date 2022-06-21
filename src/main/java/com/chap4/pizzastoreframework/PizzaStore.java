@@ -5,7 +5,8 @@
  */
 package com.chap4.pizzastoreframework;
 
-import com.chap4.pizzashop.Pizza;
+
+import com.chap4.pizzastoreframework.pizza.Pizza;
 
 /**
  * @ClassName PizzaStore
@@ -29,5 +30,6 @@ public abstract class PizzaStore {
         return pizza;
     }
 
+    //This factory method handles pizza creation
     public abstract Pizza createPizza(String type);
 }

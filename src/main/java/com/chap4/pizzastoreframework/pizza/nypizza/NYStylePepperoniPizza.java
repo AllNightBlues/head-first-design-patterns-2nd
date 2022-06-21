@@ -5,7 +5,8 @@
  */
 package com.chap4.pizzastoreframework.pizza.nypizza;
 
-import com.chap4.pizzashop.Pizza;
+
+import com.chap4.pizzastoreframework.pizza.Pizza;
 
 /**
  * @ClassName NYStylePepperoniPizza
