@@ -21,9 +21,9 @@ public class RemoteControlTest {
 
     public static void main(String[] args) {
         SimpleRemoteControl remote = new SimpleRemoteControl();
-        Light light = new Light();
+        Light light = new Light("light");
         LightOnCommand lightOn = new LightOnCommand(light);
-        GarageDoor garageDoor = new GarageDoor();
+        GarageDoor garageDoor = new GarageDoor("garage door");
         GarageDoorOpenCommand garageDoorOpen = new GarageDoorOpenCommand(garageDoor);
         remote.setCommand(lightOn);
         remote.buttonWasPressed();
