@@ -1,4 +1,4 @@
-package com.chap6.undo;
+package com.chap6.undo.ceilingfan;
 
 public class CeilingFan {
 	public static final int HIGH = 3;

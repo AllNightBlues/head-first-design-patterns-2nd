@@ -1,5 +1,13 @@
 package com.chap6.undo;
 
+import com.chap6.undo.ceilingfan.CeilingFan;
+import com.chap6.undo.ceilingfan.CeilingFanHighCommand;
+import com.chap6.undo.ceilingfan.CeilingFanMediumCommand;
+import com.chap6.undo.ceilingfan.CeilingFanOffCommand;
+import com.chap6.undo.light.Light;
+import com.chap6.undo.light.LightOffCommand;
+import com.chap6.undo.light.LightOnCommand;
+
 public class RemoteLoader {
  
 	public static void main(String[] args) {
@@ -7,9 +15,9 @@ public class RemoteLoader {
  
 		Light livingRoomLight = new Light("Living Room");
  
-		LightOnCommand livingRoomLightOn = 
+		LightOnCommand livingRoomLightOn =
 				new LightOnCommand(livingRoomLight);
-		LightOffCommand livingRoomLightOff = 
+		LightOffCommand livingRoomLightOff =
 				new LightOffCommand(livingRoomLight);
  
 		remoteControl.setCommand(0, livingRoomLightOn, livingRoomLightOff);
@@ -25,11 +33,11 @@ public class RemoteLoader {
 
 		CeilingFan ceilingFan = new CeilingFan("Living Room");
    
-		CeilingFanMediumCommand ceilingFanMedium = 
+		CeilingFanMediumCommand ceilingFanMedium =
 				new CeilingFanMediumCommand(ceilingFan);
-		CeilingFanHighCommand ceilingFanHigh = 
+		CeilingFanHighCommand ceilingFanHigh =
 				new CeilingFanHighCommand(ceilingFan);
-		CeilingFanOffCommand ceilingFanOff = 
+		CeilingFanOffCommand ceilingFanOff =
 				new CeilingFanOffCommand(ceilingFan);
   
 		remoteControl.setCommand(0, ceilingFanMedium, ceilingFanOff);
