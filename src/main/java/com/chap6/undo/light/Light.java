@@ -1,4 +1,4 @@
-package com.chap6.undo;
+package com.chap6.undo.light;
 
 public class Light {
 	String location;

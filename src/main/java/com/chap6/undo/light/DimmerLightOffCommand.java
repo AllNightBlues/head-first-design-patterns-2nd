@@ -1,4 +1,6 @@
-package com.chap6.undo;
+package com.chap6.undo.light;
+
+import com.chap6.undo.Command;
 
 public class DimmerLightOffCommand implements Command {
 	Light light;
