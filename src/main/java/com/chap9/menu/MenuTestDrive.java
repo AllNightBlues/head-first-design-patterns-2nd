@@ -8,7 +8,7 @@ public class MenuTestDrive {
         Menu dinerMenu = new DinerMenu();
 		Menu cafeMenu = new CafeMenu();
 
-		Waitress waitress = new Waitress(pancakeHouseMenu, dinerMenu);
+		Waitress waitress = new Waitress(pancakeHouseMenu, dinerMenu, cafeMenu);
 		
 		// With iterators
 		waitress.printMenu();

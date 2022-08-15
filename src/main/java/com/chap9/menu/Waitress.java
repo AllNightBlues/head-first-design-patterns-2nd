@@ -25,8 +25,10 @@ public class Waitress {
 
 		System.out.println("MENU\n----\nBREAKFAST");
 		printMenu(pancakeIterator);
+
 		System.out.println("\nLUNCH");
 		printMenu(dinerIterator);
+
 		System.out.println("\nDINNER");
 		printMenu(cafeIterator);
 
